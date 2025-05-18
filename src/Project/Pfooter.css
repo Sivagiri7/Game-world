@@ -1,0 +1,46 @@
+#footertitle{
+    color: #00a2ffd8;
+    padding-left: 10%;
+    padding-top: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#footertext{
+    text-indent: 50px;
+    line-height: 1.7;
+    word-spacing: 7px;
+    color: white;
+    width:80%;
+    margin: 2% auto;
+}
+#copyright{
+    color: white;
+    width:80%;
+    margin: 2% auto;
+}
+#first{
+    color: white;
+}
+#second{
+    color: white;
+    margin-left: 35%;
+}
+#third{
+    color: white;
+    margin-left: 35%;
+}
+#first:hover,#second:hover ,#third:hover{
+    text-shadow: 0 0 10px whitesmoke, 0 0 20px whitesmoke; 
+    cursor: pointer;
+    
+}
+#line{
+    color: white;
+}
+#footlink{
+    color: #00a2ffd8;
+    margin-left: 10%;
+}
+#footlink:hover{
+     text-shadow: 0 0 10px #00a2ffd8, 0 0 20px #00a2ffd8; 
+    cursor: pointer;
+}

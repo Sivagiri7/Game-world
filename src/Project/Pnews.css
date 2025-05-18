@@ -1,0 +1,24 @@
+.news{
+    color: white;
+}
+#newstitle{
+ color:#00a2ffd8;
+    padding-left: 10%;
+    padding-top: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#newstext{
+    padding-left: 5%;
+}
+#newstexttwo{
+    text-indent: 50px;
+    line-height: 1.5;
+    word-spacing: 7px;
+}
+.imgstyle{
+    cursor: pointer;
+}
+span{
+    color:#00a2ffd8;
+}
+    

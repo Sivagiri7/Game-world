@@ -1,0 +1,35 @@
+/* .slide{
+    border: 1px solid black;
+    height: 500px;
+    width:1000px;
+    margin: 20px auto;
+    border-radius: 1%;
+
+} */
+.main_slice{
+     
+    height: 50%;
+    width:60%;
+    margin: 4% auto;
+    
+}
+#a{
+    height: 100%;
+    width:100%;
+}
+
+#button{
+    text-align: end;
+}
+#slidename{
+    color:#00a2ffd8;
+    padding-left: 10%;
+    padding-top: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#slidetext{
+    color: whitesmoke;
+    padding-left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,41 @@
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1.5rem;
+  padding: 1rem;
+  scroll-snap-type: x mandatory;
+}
+
+.scroll-card {
+  flex: 0 0 auto;
+  width: 22rem; 
+  scroll-snap-align: start;
+}
+
+.scroll-container::-webkit-scrollbar {
+  height: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #222;
+}
+#card,#cardtwo,#cardthree,#cardfour{
+    color: #00a2ffd8;
+    padding-left: 5%;
+}
+#topgap{
+margin-top: 5%;
+}
+#scroll-card{
+  transition: transform 0.3s ease, z-index 0.3s;
+
+}
+#scroll-card:hover{
+  transform: scale(1.1);
+  z-index: 10;
+}
